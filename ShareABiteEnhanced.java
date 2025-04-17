@@ -124,7 +124,7 @@ public class ShareABiteEnhanced {
         gbc.gridwidth = 2;
         JButton loginButton = new JButton("Login");
         loginButton.setBackground(new Color(76, 175, 80));
-        loginButton.setForeground(Color.WHITE);
+        loginButton.setForeground(Color.GREEN);
         loginButton.addActionListener(e -> attemptLogin());
         loginPanel.add(loginButton, gbc);
 
@@ -179,7 +179,7 @@ public class ShareABiteEnhanced {
         gbc.gridwidth = 2;
         JButton registerSubmitButton = new JButton("Register");
         registerSubmitButton.setBackground(new Color(76, 175, 80));
-        registerSubmitButton.setForeground(Color.WHITE);
+        registerSubmitButton.setForeground(Color.GREEN);
         registerSubmitButton.addActionListener(e -> attemptRegistration());
         registerPanel.add(registerSubmitButton, gbc);
 
@@ -314,7 +314,7 @@ public class ShareABiteEnhanced {
 
         JButton submitButton = new JButton("Share This Food");
         submitButton.setBackground(new Color(255, 87, 34));
-        submitButton.setForeground(Color.WHITE);
+        submitButton.setForeground(Color.ORANGE);
         submitButton.setFont(new Font("SansSerif", Font.BOLD, 14));
         submitButton.addActionListener(e -> postFoodItem());
         postPanel.add(submitButton, BorderLayout.SOUTH);
@@ -419,7 +419,7 @@ public class ShareABiteEnhanced {
 
         JButton reserveButton = new JButton("Reserve Food & Get Directions");
         reserveButton.setBackground(new Color(76, 175, 80));
-        reserveButton.setForeground(Color.WHITE);
+        reserveButton.setForeground(Color.GREEN);
         reserveButton.setFont(new Font("SansSerif", Font.BOLD, 14));
         reserveButton.addActionListener(e -> {
             int index = foodList.getSelectedIndex();
